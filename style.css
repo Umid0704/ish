@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 900px;
+    background: url(image/bg1.png);
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    padding: 35px 100px;
+    justify-content: space-between;
+}
+
+.nav__items {
+    align-items: center;
+    display: flex;
+    gap: 50px;
+
+}
+
+.nav__items ul {
+    display: flex;
+    gap: 50px;
+}
+#active{
+    font-weight: 600;
+    color: #191919;
+}
+.nav__items ul a{
+    color: #454352;
+    font-size: 28px;
+
+}
+.btn {
+    background: #2C26DA;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    color: #DEDDF8;
+}
+
+.bg__clock {
+    right: 760px;
+    top: -40px;
+    position: absolute;
+    width: 959.693px;
+    height: 484.068px;
+    transform: rotate(58.581deg);
+    z-index: -1;
+    opacity: 20%;
+}
+.btn-2{
+    border: 1px solid #CCCBF1;
+    padding: 10px 18px;
+    border-radius: 5px;
+    color: #7879EA;
+    margin-left: 30px;
+    background:#FFFFFF;
+}
+.header__box{
+    display: flex;
+    padding: 80px 30px;
+    margin-top: 25px;
+    
+}
+.header__title{
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+small{
+    color: #3432CE;
+    font-size: 20px;
+}
+h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+p{
+font-size: 22px;
+line-height: 30px;
+}
+.section{
+    padding: 40px 150px;
+    background:#FFFFFF;
+}
+.section__box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.section__image{
+    background: #D6D7DB;
+    border: 1px double #CCCCCC;
+    border-radius: 68px;
+    position: relative;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+.text{
+    max-width: 580px;
+}
+.aside{
+    display: flex;
+    padding: 100px 100px;
+}
+.aside__title{
+    padding: 20px 0 20px 80px;
+}
+.aside__title h2{
+    max-width: 500px;
+}
+.aside__title p{
+    max-width: 440px;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.footer{
+    background: #F7F7F7;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 170px 100px;
+}
+.foooter div p {
+    font-weight: 600;
+}
+a{
+    color: #191919;
+}
+input{
+    padding: 9px 90px 9px 18px;
+}
